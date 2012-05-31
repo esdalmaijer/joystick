@@ -1,0 +1,9 @@
+joystick plugin for OpenSesame
+
+This is a plugin to implement joystick, gamepad and trackball functionallity to OpenSesame, an open source graphical experiment builder for the social sciences by Sebastiaan Mathot. See: <http://cogsci.nl/software/opensesame> and <https://github.com/smathot/OpenSesame>.
+
+The joystick plugin is based on PyGame and acts as a straightforward experiment item (for collecting buttonpresses on a joystick-device), as well as adding some OpenSesame-functions, which can be used in inline_script items to handle joystick input. In comparison to using PyGame-commands, this is more user-friendly and makes for less coding effort. For help, see 'joystick.html' in the 'joystick'-folder.
+
+To use the plugin, simply add the entire 'joystick'-folder to the plugin folder of your OpenSesame-installation. The joystick plugin is tested on OpenSesame 0.25 and 0.26 on Windows and works flawlessly with OpenSesame Portable (see: <http://cogsci.nl/esdalmaijer/> and <http://forum.cogsci.nl/index.php?p=/discussion/69/opensesame-portable>).
+
+Good luck using the plugin! Feedback is always welcome at edwin.dalmaijer@gmail.com.
